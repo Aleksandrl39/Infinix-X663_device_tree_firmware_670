@@ -113,6 +113,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 # Сжатие для экономии места
-BOARD_RAMDISK_USE_LZ4 := true
+BOARD_RAMDISK_USE_XZ := true
+BOARD_RAMDISK_COMPRESSOR := xz
+BOARD_RAMDISK_COMPRESSOR_ARGS := -9 --extreme --check=crc32
 # Убираем лишние шрифты
 TW_EXCLUDE_DEFAULT_THEME := true
