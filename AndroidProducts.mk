@@ -11,4 +11,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     omni_Infinix-X663-user \
     omni_Infinix-X663-userdebug \
-    omni_Infinix-X663-eng
+    omni_X663-eng
